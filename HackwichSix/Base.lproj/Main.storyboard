@@ -27,7 +27,7 @@
         <!--View Controller-->
         <scene sceneID="KJa-0q-ksR">
             <objects>
-                <viewController id="qfs-0L-QIl" sceneMemberID="viewController">
+                <viewController id="qfs-0L-QIl" customClass="ViewController" customModule="HackwichSix" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n2o-vF-YVs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,6 +56,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="m6V-UK-Cne"/>
+                    <connections>
+                        <outlet property="tableView" destination="l4C-X8-olO" id="Lze-lX-XCS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hci-1p-QXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
